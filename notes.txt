@@ -1,0 +1,35 @@
+C4: Context, Containers, Components and Code
+
+* C4 is used to document architecture
+
+* Normally people will use the first two (Context and Containers), because they are of higher-level
+    - The other two (Components and Code) are more lower level (more software level)
+
+
+** (System) Context
+
+* In the Context, we get the sense of the context our software is inserted at and who communicates with it.
+
+
+** Containers
+
+* Contains the systems our software has and their interaction.
+    - This is a zoom in a specifc part of a context
+
+
+** Components
+
+* This is a zoom inside a container and we get to see what's inside this container
+
+
+** Code
+
+* Zoom inside a component
+
+* We might get to see a class diagram, for example.
+
+* Because the details change so much, we need to keep this level up to date a lot
+
+
+
+* We also have here the concept of people, which something that will use our system (be it an actual person or another system).
